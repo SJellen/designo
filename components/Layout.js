@@ -1,5 +1,6 @@
 import Head from 'next/head'
-
+import Footer from './Footer'
+import Header from './Header'
 export default function Layout({children}) {
 
     return (
@@ -10,11 +11,11 @@ export default function Layout({children}) {
             <meta name="Description" content="Designo" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" /> 
           </Head>
-            
+                <Header />
             <main>
                 {children}
             </main>
-           
+                <Footer />
         </div>
     )
 }
