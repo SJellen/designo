@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Footer() {
 
     return (
-        <header className={styles.container}>
+        <footer className={styles.container}>
             <div className={styles.topContainer}>
                 <div className={styles.footerLogo}>
                     <Image src="/assets/shared/desktop/logo-light.png" alt="open menu icon" width="404" height="54" />
@@ -16,9 +16,25 @@ export default function Footer() {
                     <Link href="/contact" ><a >CONTACT</a></Link>
                 </nav>
             </div>
-            <div>
+            <div className={styles.bottomContainer}>
+                <div className={styles.leftFlexContainer}>
+                    <ul>
+                        <li>Designo Central Office</li>
+                        <li>3886 Wellington Street</li>
+                        <li>Toronto, Ontario M9C 3J5</li>
+                    </ul>
+                    <ul>
+                        <li>Contact Us (Central Office)</li>
+                        <li>P : +1 253-863-8967</li>
+                        <li>M : contact@designo.co</li>
+                    </ul>
+                </div>
+                <div className={styles.rightFlexContainer}>
+                    <div className={styles.iconContainer}>
 
+                    </div>
+                </div>
             </div>
-        </header>
+        </footer>
     )
 }

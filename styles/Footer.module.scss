@@ -37,3 +37,46 @@
     color: V.$white;
     font-size: .9rem;
 }
+
+.bottomContainer {
+    border: 1px solid red;
+    width: 78%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftFlexContainer {
+    border: 1px solid blue;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    ul {
+        
+        border: 1px solid gold;
+        color:#8e8d8e;
+        display: inline-block;
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.rightFlexContainer {
+    border: 1px solid green;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    
+}
+
+.iconContainer {
+    background-color: red;
+    width: 200px;
+    height: 70px;
+}
