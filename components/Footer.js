@@ -18,12 +18,12 @@ export default function Footer() {
             </div>
             <div className={styles.bottomContainer}>
                 <div className={styles.leftFlexContainer}>
-                    <ul>
+                    <ul className={styles.address}>
                         <li>Designo Central Office</li>
                         <li>3886 Wellington Street</li>
                         <li>Toronto, Ontario M9C 3J5</li>
                     </ul>
-                    <ul>
+                    <ul className={styles.contact}>
                         <li>Contact Us (Central Office)</li>
                         <li>P : +1 253-863-8967</li>
                         <li>M : contact@designo.co</li>

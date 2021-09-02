@@ -41,7 +41,7 @@
 .bottomContainer {
     border: 1px solid red;
     width: 78%;
-    height: 150px;
+    height: 125px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -53,15 +53,26 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
     ul {
-        
+        width: auto;
         border: 1px solid gold;
         color:#8e8d8e;
         display: inline-block;
+        margin: 0px;
+        padding: 0px;
         li {
             list-style: none;
+            border: 1px solid gold;
         }
+    }
+    .address {
+        font-weight: 300;
+    }
+    .address > :first-child {
+        font-weight: 600;
+    }
+    .contact {
+        font-weight: 600;;
     }
 }
 
