@@ -5,6 +5,8 @@
     height: 400px;
     border: 1px solid red;
     background-color: V.$black;
+    position: relative;
+    margin-top: -4.65rem;
 }
 
 .topContainer {
@@ -87,7 +89,11 @@
 }
 
 .iconContainer {
-    background-color: red;
-    width: 200px;
-    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+    height: 24px;
+    img:hover {
+        cursor: pointer;
+    }
 }

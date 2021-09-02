@@ -31,7 +31,11 @@ export default function Footer() {
                 </div>
                 <div className={styles.rightFlexContainer}>
                     <div className={styles.iconContainer}>
-
+                        <Image src="/assets/shared/desktop/icon-facebook.svg" alt="facebook icon" width="24" height="24"  className={styles.svg}/>
+                        <Image src="/assets/shared/desktop/icon-youtube.svg" alt="youtube icon" width="24" height="24"  className={styles.svg}/>
+                        <Image src="/assets/shared/desktop/icon-twitter.svg" alt="twitter icon" width="24" height="24"  className={styles.svg}/>
+                        <Image src="/assets/shared/desktop/icon-pinterest.svg" alt="pinterest icon" width="24" height="24"  className={styles.svg}/>
+                        <Image src="/assets/shared/desktop/icon-instagram.svg" alt="instagram icon" width="24" height="24"  className={styles.svg}/>
                     </div>
                 </div>
             </div>
