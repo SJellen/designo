@@ -11,6 +11,11 @@
     background-color: V.$peach;
     display: flex;
     align-items: center;
+    background-image: url("../public/assets/shared/desktop/bg-pattern-call-to-action.svg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-y: center;
+    background-position-x: right;
 }
 
 .flexContainer {
