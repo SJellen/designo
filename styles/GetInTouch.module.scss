@@ -24,16 +24,36 @@
     height: 80%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .leftContainer {
     border: 1px solid gold;
     width: 50%;
     height: 100%;
+    color: V.$white;
+    h1 {
+        font-size: 2.25rem;
+        font-weight: 500;
+        width: 60%;
+    }
+    p {
+        width: 95%;
+    }
 }
 
 .rightContainer {
     border: 1px solid green;
-    width: 50%;
+    width: 20%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        background-color: V.$white;
+        width: 152px;
+        height: 56px;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+    }
 }
