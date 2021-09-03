@@ -9,5 +9,26 @@
     height: 292px;
     border-radius: 20px;
     background-color: V.$peach;
+    display: flex;
+    align-items: center;
+}
 
+.flexContainer {
+    border: 1px solid red;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.leftContainer {
+    border: 1px solid gold;
+    width: 50%;
+    height: 100%;
+}
+
+.rightContainer {
+    border: 1px solid green;
+    width: 50%;
+    height: 100%;
 }

@@ -5,7 +5,14 @@ export default function GetInTouch() {
 
     return (
         <div className={styles.container}>
-            get in touch
+            <div className={styles.flexContainer}>
+                <div className={styles.leftContainer}>
+
+                </div>
+                <div className={styles.rightContainer}>
+
+                </div>
+            </div>
         </div>
     )
 }
