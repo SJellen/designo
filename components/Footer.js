@@ -5,8 +5,9 @@ import Link from 'next/link'
 export default function Footer() {
 
     return (
-        <footer className={styles.container}>
-            <div className={styles.topContainer}>
+        <footer className={styles.footer}>
+            <div className={styles.container}>
+               <div className={styles.topContainer}>
                 <div className={styles.footerLogo}>
                     <Image src="/assets/shared/desktop/logo-light.png" alt="open menu icon" width="404" height="54" />
                 </div>
@@ -38,7 +39,9 @@ export default function Footer() {
                         <Image src="/assets/shared/desktop/icon-instagram.svg" alt="instagram icon" width="24" height="24"  className={styles.svg}/>
                     </div>
                 </div>
+            </div> 
             </div>
+            
         </footer>
     )
 }

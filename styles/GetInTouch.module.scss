@@ -44,7 +44,7 @@
 
 .rightContainer {
     border: 1px solid green;
-    width: 20%;
+    width: auto;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -57,3 +57,26 @@
         border-radius: 10px;
     }
 }
+
+@media only screen and (min-width: 1440px){
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .leftContainer {
+        width: 70%;
+    }
+  }
+
+
+  @media only screen and (max-width: 900px){
+    .container {
+        width: 90%;
+
+    }
+  }
+ 
