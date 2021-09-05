@@ -19,7 +19,6 @@
 }
 
 .flexContainer {
-    border: 1px solid red;
     width: 90%;
     height: 80%;
     margin: 0 auto;
@@ -28,7 +27,6 @@
 }
 
 .leftContainer {
-    border: 1px solid gold;
     width: 50%;
     height: 100%;
     color: V.$white;
@@ -43,7 +41,6 @@
 }
 
 .rightContainer {
-    border: 1px solid green;
     width: auto;
     height: 100%;
     display: flex;
@@ -62,7 +59,6 @@
     .container {
         max-width: 1440px;
         margin: 0 auto;
-        border: 1px solid red;
     }
   }
 
@@ -72,11 +68,72 @@
     }
   }
 
-
   @media only screen and (max-width: 900px){
     .container {
         width: 90%;
 
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .container {
+        height: 350px;
+        background-size: 150%;
+        background-position-y: center;
+        background-position-x: center;
+    }
+    .flexContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .leftContainer {
+        width: 100%;
+        h1 {
+            margin: 1rem auto;
+        }
+        p {
+            width: 80%;
+            margin: 1rem auto;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .container {
+        height: 380px;
+        background-size: 200%;
+        align-items: center;
+    }
+
+    .leftContainer {
+        h1 {
+            width: 66%;
+            font-size: 2rem;
+        }
+        p {
+            width: 90%;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .leftContainer {
+        h1 {
+            width: 90%
+        }
+    }
+  }
+
+  @media only screen and (max-width: 325px) {
+    .leftContainer {
+        h1 {
+            width: 80%;
+            font-size: 1.5rem;
+        }
+        p {
+            width: 90%;
+        }
     }
   }
  
