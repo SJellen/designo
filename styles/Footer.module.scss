@@ -89,9 +89,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    
-    
+    justify-content: flex-end; 
 }
 
 .iconContainer {
@@ -108,7 +106,6 @@
     .container {
         max-width: 1440px;
         margin: 0 auto;
-        border: 1px solid red;
     }
   }
 
@@ -122,6 +119,29 @@
         width: 90%;
     }
     .leftFlexContainer {
-        width: 80%;
+        width: 70%;
+    }
+    .rightFlexContainer {
+        width: auto;
+    }
+    .nav {
+        width: 50%;
     }
 }
+
+@media only screen and (max-width: 650px) {
+    .bottomContainer {
+        flex-direction: column;
+        height: auto;
+    }
+    .leftFlexContainer {
+        width: 100%;
+        margin: 2rem auto;
+        justify-content: space-evenly;
+    }
+    .rightFlexContainer {
+        align-items: center;
+    }
+
+}
+
