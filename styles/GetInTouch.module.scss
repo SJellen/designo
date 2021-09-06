@@ -53,6 +53,10 @@
         padding: 1rem 1.5rem;
         border-radius: 10px;
     }
+    a:hover {
+        background-color: #fcad9b;
+        color: V.$white;
+    }
 }
 
 @media only screen and (min-width: 1440px){
