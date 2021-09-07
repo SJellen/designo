@@ -11,4 +11,47 @@
     background-size: 60%;
     background-position-y: center;
     background-position-x: right;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.leftContainer {
+    width: auto;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+     margin-left: 10%;
+}
+
+.textContainer {
+    border: 1px solid gold;
+    width: 540px;
+    height: 350px;
+    a {
+        background-color: V.$white;
+        width: 152px;
+        height: 56px;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+    }
+    a:hover {
+        background-color: #fcad9b;
+        color: V.$white;
+        cursor: pointer;
+    }
+}
+.rightContainer {
+    width: 400px;
+    height: 100%;
+    border: 1px solid blue;
+   .imgContainer {
+       position: relative;
+       
+       margin-top: 0%;
+       right: 30%;
+       width: 150%;
+   }
 }
