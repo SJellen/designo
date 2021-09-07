@@ -30,8 +30,23 @@
     border: 1px solid gold;
     width: 540px;
     height: 350px;
+    color: V.$white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        width: 80%;
+        line-height: 1;
+    }
+    p {
+        margin-top: -1rem;
+        width: 80%;
+    }
     a {
         background-color: V.$white;
+        color: V.$black;
         width: 152px;
         height: 56px;
         padding: 1rem 1.5rem;
@@ -54,4 +69,79 @@
        right: 30%;
        width: 150%;
    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .textContainer {
+        width: 400px;
+        height: auto;
+        h1 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .container {
+        flex-direction: column;
+        height: 845px;
+    }
+    .leftContainer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .textContainer {
+        width: 65%;
+        height: 350px;
+        align-items: center;
+        text-align: center;
+        margin: 2rem auto;
+    }
+    .rightContainer {
+        width: 100%;
+        display: flex;
+        
+        .imgContainer {
+            top: -7.5rem;
+            right: 0;
+            left: calc(50% - 300px);
+        }
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+    .textContainer {
+        width: 70%;
+        p {
+            width: 90%;
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .rightContainer {
+        width: 100%;
+        border: 1px solid green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .imgContainer {
+            position: static;
+            border: 1px solid gold;
+
+        }
+        
+        
+    }
+    .textContainer {
+            width: 90%;
+        }
 }
