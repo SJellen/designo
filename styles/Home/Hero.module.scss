@@ -1,0 +1,9 @@
+@use '../variables' as V;
+
+.container {
+    background-color: V.$peach;
+    width: 78%;
+    margin: 3.75rem auto;
+    height: 640px;
+    border-radius: 20px;
+}
