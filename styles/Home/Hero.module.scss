@@ -19,7 +19,6 @@
 .leftContainer {
     width: auto;
     height: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -27,7 +26,6 @@
 }
 
 .textContainer {
-    border: 1px solid gold;
     width: 540px;
     height: 350px;
     color: V.$white;
@@ -61,7 +59,6 @@
 .rightContainer {
     width: 400px;
     height: 100%;
-    border: 1px solid blue;
    .imgContainer {
        position: relative;
        
@@ -127,21 +124,64 @@
 }
 
 @media only screen and (max-width: 650px) {
+
     .rightContainer {
-        width: 100%;
-        border: 1px solid green;
-        display: flex;
-        justify-content: center;
         align-items: center;
         .imgContainer {
-            position: static;
-            border: 1px solid gold;
-
-        }
-        
-        
+            top: -5%;
+            left: 0;
+            transform: scale(125%);
+        }  
     }
     .textContainer {
             width: 90%;
         }
+}
+
+@media only screen and (max-width: 500px) {
+    .rightContainer {
+        .imgContainer {
+            transform: scale(150%);
+            top: 5%;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .textContainer {
+        h1 {
+            font-size: 2rem;
+        }
+        P {
+            width: 100%;
+        }
+    }
+    .rightContainer {
+        .imgContainer {
+            top: 15%;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .rightContainer {
+        .imgContainer {
+            transform: scale(175%);
+            top: 17.5%;
+        }
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .textContainer {
+        h1 {
+            font-size: 1.75rem;
+        }
+        P {
+            width: 100%;
+        }
+        a {
+            margin-top: 2rem;
+        }
+    }
 }
