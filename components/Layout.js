@@ -2,11 +2,12 @@ import Head from 'next/head'
 import Footer from './Footer'
 import Header from './Header'
 import GetInTouch from './GetInTouch'
+import styles from '../styles/Layout.module.scss'
 
 export default function Layout({children}) {
 
     return (
-        <div>
+        <div className={styles.container}>
         <Head>
             <title>Designo</title>
             <link rel="icon" href="/favicon.ico" />
