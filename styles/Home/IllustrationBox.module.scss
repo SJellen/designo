@@ -1,0 +1,42 @@
+@use '../variables' as V;
+
+.container {
+    width: 78%;
+    height: 412px;
+    margin: 5rem auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 1px solid gold;
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topContainer {
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../public/assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.bottomContainer {
+    border: 1px solid green;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+}
