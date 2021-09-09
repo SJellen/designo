@@ -1,0 +1,21 @@
+@use '../variables' as V;
+
+.container {
+    width: 78%;
+    height: 640px;
+    margin: 7.5rem auto;
+    background-color: red;
+    display: flex;
+}
+
+.leftContainer {
+    width: 50%;
+    height: 100%;
+    background-color: blue;;
+}
+
+.rightContainer {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
