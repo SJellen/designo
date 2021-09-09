@@ -2,7 +2,7 @@
 
 .container {
     width: 78%;
-    height: 412px;
+    height: auto;
     margin: 5rem auto;
     border: 1px solid red;
     display: flex;
@@ -39,7 +39,7 @@
     }
     p {
         margin-top: 1.5rem;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.5;
     }
 }
@@ -48,4 +48,37 @@
     .container {
         width: 90%;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        border: 1px solid blue;
+        margin: 1rem auto;
+        align-items: center;
+    }
+
+    .topContainer {
+        // width: auto;
+        // width: 40%;
+        width: 202px;
+        height: 202px;
+    }
+
+    .bottomContainer {
+        width: 65%;
+        height: auto;
+        text-align: left;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
 }
