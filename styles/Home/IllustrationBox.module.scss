@@ -4,13 +4,11 @@
     width: 78%;
     height: auto;
     margin: 5rem auto;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 
 .box {
-    border: 1px solid gold;
     width: 32%;
     height: 100%;
     display: flex;
@@ -19,7 +17,6 @@
 }
 
 .topContainer {
-    border: 1px solid green;
     display: flex;
     justify-content: center;
     background-image: url("../../public/assets/shared/desktop/bg-pattern-small-circle.svg");
@@ -30,7 +27,6 @@
 }
 
 .bottomContainer {
-    border: 1px solid green;
     text-align: center;
     color: V.$darkGrey;
     h3 {
@@ -59,14 +55,11 @@
         width: 100%;
         height: auto;
         flex-direction: row;
-        border: 1px solid blue;
         margin: 1rem auto;
         align-items: center;
     }
 
     .topContainer {
-        // width: auto;
-        // width: 40%;
         width: 202px;
         height: 202px;
     }
@@ -80,5 +73,13 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .box {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+    .bottomContainer {
+        width: 100%;
+        text-align: center;
+    }
 
 }
