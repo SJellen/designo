@@ -6,28 +6,39 @@
     margin: 7.5rem auto;
     background-color: red;
     display: flex;
+    justify-content: space-between;
 }
 
 .leftContainer {
-    width: 50%;
+    width: 48.5%;
     height: 100%;
-    background-color: blue;;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .rightContainer {
-    width: 50%;
+    width: 48.5%;
     height: 100%;
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .topContainer {
     background-color: silver;
     width: 100%;
-    height: 50%;
+    height: 48%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .bottomContainer {
     background-color: orange;
     width: 100%;
-    height: 50%;
+    height: 48%;
+    display: flex;
+    align-items: flex-end;
 }
