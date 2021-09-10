@@ -6,9 +6,34 @@
     background-color: gold;
     border-radius: 20px;
     color: V.$white;
+
 }
 
 .container:hover {
     cursor: pointer;
+}
+
+.imgContainer {
+    z-index: 0;
+    position: relative;
+    
+    .imgContainerDesktop {
+        img {
+            border-radius: 15px;
+        }
+    }
+    .imgContainerTablet {
+        display: none;
+    }
+    .imgContainerMobile {
+        display: none;
+    }
+}
+
+.textContainer {
+    z-index: 2;
+    position: relative;
+    margin-top: -10rem;
+    border: 1px solid red;
 }
 

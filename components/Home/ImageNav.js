@@ -1,5 +1,5 @@
 import styles from '../../styles/Home/ImageNav.module.scss'
-import WebDesignTile from '../ImageNavTile/WebDesginTile'
+import WebDesignTileHome from '../Home/WebDesignTileHome'
 import AppDesignTile from '../ImageNavTile/AppDesignTile'
 import GraphicDesignTile from '../ImageNavTile/GraphicDesign'
 
@@ -8,7 +8,7 @@ export default function ImageNav() {
     return (
         <div className={styles.container}>
             <div className={styles.leftContainer}>
-                <WebDesignTile />
+                <WebDesignTileHome />
             </div>
             <div className={styles.rightContainer}>
                 <div className={styles.topContainer}>
