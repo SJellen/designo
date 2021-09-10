@@ -1,8 +1,14 @@
+@use 'variables' as V;
 
 .container {
     width: 100%;
     height: 100%;
     background-color: gold;
     border-radius: 20px;
+    color: V.$white;
+}
+
+.container:hover {
+    cursor: pointer;
 }
 
