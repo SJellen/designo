@@ -20,9 +20,38 @@
 
 .textContainer {
     width: 400px;
-    margin-top: -1rem;
     h1 {
+        
         font-weight: 400;
         font-size: 3rem;
+    }
+    p {
+        margin-top: -1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 500px)  {
+    .container {
+        width: 100%;
+        height: 320px;
+        border-radius: 0;
+        margin: 0 auto;
+        background-size: 250%;
+        background-position-y: 5%;
+        background-position-x: right;
+    }
+
+    .textContainer {
+        width: 90%;
+        h1 {
+            font-size: 2rem;
+        }
     }
 }
