@@ -5,13 +5,10 @@
     width: 350px;
     height: 478px;
     border: 1px solid red;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .flexContainer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    
 }
