@@ -19,7 +19,7 @@ export default function ProjectTiles() {
     ))
 
     return (
-        <div>
+        <div className={styles.flexContainer}>
             {webTiles}
         </div>
     )
