@@ -5,10 +5,23 @@
     width: 350px;
     height: 478px;
     border: 1px solid red;
+    
+    
+}
+
+.bottomContainer {
+    background-color:#FDF3F0;
+    height: 156px;
+    border: 1px solid gold;
+    h1 {
+        color: V.$peach;
+    }
 }
 
 .flexContainer {
     display: flex;
     flex-flow: row wrap;
-    
+   
+    // justify-content: space-between;
+    // align-content: flex-start;
 }
