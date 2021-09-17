@@ -1,0 +1,20 @@
+@use '../variables' as V;
+
+.container {
+    width: 78%;
+    height: 480px;
+    border-radius: 15px;
+    border: 1px solid red;
+    margin: 4rem auto;
+    background-color: V.$peach;
+    background-image: url("../../public/assets/contact/desktop/bg-pattern-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: bottom;
+    background-position-x: left;
+    color: V.$white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
