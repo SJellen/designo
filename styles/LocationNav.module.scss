@@ -1,0 +1,10 @@
+@use 'variables' as V;
+
+.container {
+    width: 78%;
+    margin: 10rem auto;
+    height: 365px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
