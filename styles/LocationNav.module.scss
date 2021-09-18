@@ -8,3 +8,29 @@
     display: flex;
     justify-content: space-between;
 }
+
+.box {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: center;
+    background-image: url("../public/assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
+    background-size: 202px;
+    background-position-y: center;
+    background-position-x: center;
+}
+.bottomContainer {
+    text-align: center;
+    color: V.$darkGrey;
+    h3 {
+        font-weight: 500;
+        letter-spacing: 5px;
+    }
+}
