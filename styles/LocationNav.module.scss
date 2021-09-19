@@ -4,7 +4,6 @@
     width: 78%;
     margin: 10rem auto;
     height: 365px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
@@ -14,7 +13,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 
 .topContainer {
@@ -29,8 +29,23 @@
 .bottomContainer {
     text-align: center;
     color: V.$darkGrey;
+    height: auto;
     h3 {
         font-weight: 500;
         letter-spacing: 5px;
+        margin: 2rem auto;
+        padding-bottom: 1rem;
+    }
+    a {
+        background-color: V.$peach;
+        color: V.$white;
+        width: 152px;
+        height: 56px;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+    }
+    a:hover {
+        background-color: #fcad9b;
+        color: V.$white;
     }
 }
