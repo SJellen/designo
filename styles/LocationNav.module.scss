@@ -49,3 +49,9 @@
         color: V.$white;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+}
