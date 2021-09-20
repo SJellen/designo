@@ -4,25 +4,21 @@
     width: 78%;
     margin: 0 auto;
     height: 100px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 
 .headerLogo {
-    border: 1px solid red;
     width: auto;
     display: flex;
     align-items: center;
     img {
         width: 200px;
         height: 24px;
-        border: 1px solid blue;
     }
 }
 
 .nav {
-    border: 1px solid rgb(109, 138, 109);
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -35,16 +31,16 @@
     }
 }
 
+.mobileNav {
+    display: none;
+}
+
 .mobileContainer{
-    border: 1px solid red;
     display: flex;
     align-items: center;
+    display: none;
     
 }
-.svgContainer {
-        border: 1px solid green;
-    }
-
 
  @media only screen and (max-width: 900px) {
     .container {
@@ -59,5 +55,33 @@
  }
 
  @media only screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+    .mobileNav {
+        position: absolute;
+        z-index: 5;
+        background-color: V.$black;
+        color: V.$white;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: 235px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        a {
+            font-size: 1.5rem;
+            width: 90%;
+            letter-spacing: 4px;
+        }
+        a:hover {
+            color: rgba(255, 255, 255, .5);
+        }
 
+    }
+    .mobileContainer {
+        display: flex;
+    }
  }
