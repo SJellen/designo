@@ -14,6 +14,10 @@ export default function Header() {
             <Link href="/locations" ><a >LOCATIONS</a></Link>
             <Link href="/contact" ><a >CONTACT</a></Link>
         </nav>
+        <div className={styles.mobileContainer}>
+            <Image src="/assets/shared/mobile/icon-hamburger.svg" alt="open menu icon" width="24" height="20" />
+            <Image src="/assets/shared/mobile/icon-close.svg" alt="close menu icon" width="20" height="20" /> 
+        </div>
         </header>
     )
 }

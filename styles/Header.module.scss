@@ -35,8 +35,29 @@
     }
 }
 
+.mobileContainer{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    
+}
+.svgContainer {
+        border: 1px solid green;
+    }
+
+
  @media only screen and (max-width: 900px) {
-     .container {
+    .container {
          width: 90%;
      }
+    .nav {
+        width: auto;
+        a {
+            margin-left: 1.5rem;
+        }
+    } 
+ }
+
+ @media only screen and (max-width: 600px) {
+
  }
