@@ -55,3 +55,17 @@
         width: 90%;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box {
+        width: 100%;
+        padding-bottom: 2rem;
+        margin: 2rem auto;
+    }
+}
