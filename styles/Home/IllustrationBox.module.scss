@@ -5,15 +5,17 @@
     height: auto;
     margin: 5rem auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .box {
-    width: 32%;
-    height: 100%;
+    width: 350px;
+    height: 412px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 2rem auto;
 }
 
 .topContainer {
@@ -37,6 +39,9 @@
         margin-top: 1.5rem;
         font-weight: 300;
         line-height: 1.5;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -69,6 +74,9 @@
         height: auto;
         text-align: left;
         padding: 1rem;
+        p {
+            width: 100%;    
+        }
     }
 }
 
