@@ -4,15 +4,24 @@
 .container {
     width: 350px;
     height: 478px;
-    // border: 1px solid red;
-    border-radius: 25px;
-    
+    border: 1px solid red;
+    // border-radius: 25px;
+    margin: 2rem auto;
+}
+
+.imgContainer {
+    img {
+       border-top-left-radius: 15px;
+       border-top-right-radius: 15px;
+    }
 }
 
 .bottomContainer {
     background-color:#FDF3F0;
+    margin-top: -2rem;
     height: 156px;
-    border: 1px solid gold;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     text-align: center;
     h1 {
         color: V.$peach;
@@ -24,7 +33,6 @@
 .flexContainer {
     display: flex;
     flex-flow: row wrap;
-   
-    // justify-content: space-between;
-    // align-content: flex-start;
+    justify-content: space-between;
+    align-content: flex-start;
 }
