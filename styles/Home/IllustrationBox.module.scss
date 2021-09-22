@@ -70,7 +70,7 @@
     }
 
     .bottomContainer {
-        width: 65%;
+        width: 60%;
         height: auto;
         text-align: left;
         padding: 1rem;
@@ -80,7 +80,7 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 575px) {
     .box {
         flex-direction: column;
         margin: 2rem auto;
