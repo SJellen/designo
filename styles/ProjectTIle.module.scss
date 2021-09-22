@@ -4,8 +4,6 @@
 .container {
     width: 350px;
     height: 478px;
-    border: 1px solid red;
-    // border-radius: 25px;
     margin: 2rem auto;
 }
 
@@ -18,21 +16,31 @@
 
 .bottomContainer {
     background-color:#FDF3F0;
+    z-index: 2;
+    position: relative;
     margin-top: -2rem;
     height: 156px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     text-align: center;
+    border: 1px solid red;
     h1 {
         color: V.$peach;
+        font-size: 1.25rem;
         font-weight: 300;
         letter-spacing: 4px;
+        border: 1px solid green;
+    }
+    p {
+        width: 80%;
+        border: 1px solid red;
+        margin: 0 auto;
     }
 }
 
 .flexContainer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: flex-start;
+    // justify-content: space-evenly;
+    // align-content: flex-start;
 }
