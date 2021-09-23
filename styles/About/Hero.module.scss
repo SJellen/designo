@@ -14,9 +14,25 @@
     background-position-x: left;
     color: V.$white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+.textContainer {
+    border: 1px solid blue;
+    width: 55%;
+    padding: 0 7.5%;
+    text-align: left;
+}
+
+.imgContainer {
+    border: 1px solid gold;
+    width: 476px;
+    height: 100%;
+    img {
+        ////
+    }
 }
 
 @media only screen and (max-width: 900px) {
