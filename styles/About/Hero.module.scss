@@ -24,15 +24,24 @@
     width: 55%;
     padding: 0 7.5%;
     text-align: left;
+    h2 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    p {
+        line-height: 1.5;
+        margin-top: -1rem;
+    }
 }
 
 .imgContainer {
     border: 1px solid gold;
     width: 476px;
     height: 100%;
-    img {
-        ////
-    }
+    background-color: V.$peach;
+    background-image: url("../../public/assets/about/desktop/image-about-hero.jpg");
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 @media only screen and (max-width: 900px) {
