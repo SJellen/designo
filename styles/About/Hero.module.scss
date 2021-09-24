@@ -72,3 +72,37 @@
         
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column-reverse;
+        height: auto; 
+        border-radius: 0;
+        background-image: url("../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position-y: 100px;
+        background-position-x:  right;
+    }
+    .imgContainer {
+        border-radius: 0;
+        background-image: url("../../public/assets/about/mobile/image-about-hero.jpg");
+        width: 100%;
+        background-size: cover;
+    }
+    .textContainer {
+        padding: 2rem 0;
+        h2 {
+            font-size: 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        background-position-y: 300px;
+        background-position-x:  right;
+    }
+}
