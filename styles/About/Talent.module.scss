@@ -1,0 +1,48 @@
+@use '../variables' as V;
+
+.container {
+    width: 78%;
+    height: 640px;
+    border-radius: 15px;
+    margin: 10rem auto;
+    background-color: #FDf3F0;
+    background-image: url("../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: bottom;
+    background-position-x: left;
+    color: V.$white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.imgContainer {
+    border: 1px solid red;
+    width: 476px;
+    height: 100%;
+    background-color: V.$peach;
+    background-image: url("../../public/assets/about/desktop/image-about-hero.jpg");
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.textContainer {
+    border: 1px solid blue;
+    
+    width: 55%;
+    height: auto;
+    padding: 0 7.5%;
+    text-align: left;
+    h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: V.$peach;
+    }
+    p {
+        line-height: 1.5;
+        margin-top: -1rem;
+        color: V.$black;
+    }
+}
