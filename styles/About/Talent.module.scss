@@ -36,7 +36,7 @@
     padding: 0 7.5%;
     text-align: left;
     h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
         color: V.$peach;
     }
@@ -44,5 +44,43 @@
         line-height: 1.5;
         margin-top: -1rem;
         color: V.$black;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .textContainer {
+        padding: 0 5%; 
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        height: 632px; 
+        background-size: 100%;
+        background-position-y: center;
+        background-position-x: left;
+    }
+
+    .imgContainer {
+        width: 100%;
+        height: 320px;
+        background-image: url("../../public/assets/about/tablet/image-world-class-talent.jpg");
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .textContainer {
+        width: 100%;
+        padding: 0 0 2.5rem 0;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        
     }
 }
