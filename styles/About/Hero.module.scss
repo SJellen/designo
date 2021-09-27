@@ -85,7 +85,7 @@
         background-image: url("../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg");
         background-repeat: no-repeat;
         background-size: 200%;
-        background-position-y: 100px;
+        background-position-y: 300px;
         background-position-x:  right;
     }
     .imgContainer {
@@ -102,9 +102,3 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .container {
-        background-position-y: 300px;
-        background-position-x:  right;
-    }
-}

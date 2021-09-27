@@ -19,7 +19,6 @@
 }
 
 .imgContainer {
-    border: 1px solid red;
     width: 476px;
     height: 100%;
     background-color: V.$peach;
@@ -29,8 +28,6 @@
 }
 
 .textContainer {
-    border: 1px solid blue;
-    
     width: 50%;
     height: auto;
     padding: 0 7.5%;
@@ -82,5 +79,25 @@
         width: 80%;
         margin: 0 auto;
         
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+    .imgContainer {
+        border-radius: 0;
+        background-image: url("../../public/assets/about/mobile/image-world-class-talent.jpg");
+        width: 100%;
+        background-size: cover;
+    }
+    .textContainer {
+        padding: 2rem 0;
+        h2 {
+            font-size: 2rem;
+        }
     }
 }
