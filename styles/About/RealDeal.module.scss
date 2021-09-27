@@ -1,0 +1,103 @@
+@use '../variables' as V;
+
+.container {
+    width: 78%;
+    height: 640px;
+    border-radius: 15px;
+    margin: 10rem auto;
+    background-color: #FDf3F0;
+    background-image: url("../../public/assets/shared/desktop/bg-pattern-three-circles.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: bottom;
+    background-position-x: center;
+    color: V.$white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.imgContainer {
+    width: 476px;
+    height: 100%;
+    background-color: V.$peach;
+    background-image: url("../../public/assets/about/desktop/image-real-deal.jpg");
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.textContainer {
+    width: 50%;
+    height: auto;
+    padding: 0 7.5%;
+    text-align: left;
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: V.$peach;
+    }
+    p {
+        line-height: 1.5;
+        margin-top: -1rem;
+        color: V.$black;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .textContainer {
+        padding: 0 5%; 
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+        flex-direction: column-reverse;
+        height: auto; 
+        background-size: 100%;
+        background-position-y: center;
+        background-position-x: left;
+    }
+
+    .imgContainer {
+        width: 100%;
+        height: 320px;
+        background-image: url("../../public/assets/about/tablet/image-real-deal.jpg");
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .textContainer {
+        width: 100%;
+        padding: 0 0 2.5rem 0;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0 auto 5rem auto;
+        border-radius: 0;
+    }
+    .imgContainer {
+        border-radius: 0;
+        background-image: url("../../public/assets/about/mobile/image-real-deal.jpg");
+        width: 100%;
+        background-size: cover;
+    }
+    .textContainer {
+        padding: 2rem 0;
+        h2 {
+            font-size: 2rem;
+        }
+    }
+}

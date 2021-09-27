@@ -1,6 +1,6 @@
 import styles from '../../styles/About/Talent.module.scss'
 
-export default function About() {
+export default function Talent() {
 
     return (
         <div className={styles.container}>
