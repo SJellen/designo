@@ -58,6 +58,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .container {
+        margin: 5rem auto;
+    }
     .box {
         width: 100%;
     }
