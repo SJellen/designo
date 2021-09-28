@@ -23,7 +23,17 @@
 .textContainer {
     border: 1px solid red;
     width: 40%;
-    height: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 }
 
 .form {
