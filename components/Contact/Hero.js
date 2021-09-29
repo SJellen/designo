@@ -9,10 +9,10 @@ export default function About() {
                 <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p> 
             </div>
             <div className={styles.form}>
-                <input></input>
-                <input></input>
-                <input></input>
-                <textarea></textarea>
+                <input placeholder="name" />
+                <input placeholder="email" />
+                <input placeholder="phone" />
+                <textarea />
             </div>
         </div>
     )
