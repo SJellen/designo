@@ -13,7 +13,7 @@ export default function About() {
                 <input placeholder="Name" id="name" className="name"/>
                 <input placeholder="Email" id="email" className="email"/>
                 <input placeholder="Phone" id="phone" className="phone"/>
-                <textarea placeholder="Message" className="textarea"/>
+                <textarea placeholder="Your Message" className="textarea"/>
                 <div>
                     <Link href="/contact"><a>SUBMIT</a></Link> 
                 </div>
