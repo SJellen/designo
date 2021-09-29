@@ -60,6 +60,19 @@
         outline: none;
         resize: none;
     }
+
+    a {
+        background-color: V.$white;
+        color: V.$black;
+        width: 152px;
+        height: 56px;
+        padding: 1rem 3.25rem;
+        border-radius: 10px;
+    }
+    a:hover {
+        background-color: #fcad9b;
+        color: V.$white;
+    }
 }
 
 

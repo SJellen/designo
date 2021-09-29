@@ -1,4 +1,5 @@
 import styles from '../../styles/Contact/Hero.module.scss'
+import Link from 'next/link'
 
 export default function About() {
 
@@ -13,7 +14,11 @@ export default function About() {
                 <input placeholder="Email" id="email" className="email"/>
                 <input placeholder="Phone" id="phone" className="phone"/>
                 <textarea placeholder="Message" className="textarea"/>
+                <div>
+                    <Link href="/contact"><a>SUBMIT</a></Link> 
+                </div>
             </div>
+            
         </div>
     )
 }
