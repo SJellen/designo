@@ -14,10 +14,11 @@ export default function About() {
                 <input placeholder="Email" id="email" className="email"/>
                 <input placeholder="Phone" id="phone" className="phone"/>
                 <textarea placeholder="Your Message" className="textarea"/>
-                <div>
+                <div className="buttonContainer">
                     <Link href="/contact"><a>SUBMIT</a></Link> 
                 </div>
             </div>
+            
             
         </div>
     )

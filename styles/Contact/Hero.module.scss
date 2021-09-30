@@ -4,7 +4,6 @@
     width: 78%;
     height: 480px;
     border-radius: 15px;
-    border: 1px solid red;
     margin: 2rem auto;
     background-color: V.$peach;
     background-image: url("../../public/assets/contact/desktop/bg-pattern-hero-desktop.svg");
@@ -47,23 +46,32 @@
         background-color: transparent;
         border:none;
         border-bottom: 1px solid V.$white;
-        padding: 5px 10px;
+        padding: 20px 10px;
         outline: none;
     }
     input::placeholder {
-        color: V.$white;
+        color: #f3c0b5;
     }
     textarea {
         width: 100%;
         background-color: transparent;
         border:none;
         border-bottom: 1px solid V.$white;
+        height: 126px;
         padding: 5px 10px;
         outline: none;
         resize: none;
     }
     textarea::placeholder {
-        color: V.$white;
+        color: #f3c0b5;
+        font-family: 'Jost';
+    }
+
+    .buttonContainer {
+       width: 100%;
+       height: 250px;
+       background-color: red;
+
     }
 
     a {
