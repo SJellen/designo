@@ -53,6 +53,11 @@
     input::placeholder {
         color: #f3c0b5;
     }
+    input:hover {
+        color: V.$white;
+        cursor: pointer;
+        border-bottom: 3px solid V.$white;
+    }
     textarea {
         width: 100%;
         background-color: transparent;
@@ -66,6 +71,11 @@
     textarea::placeholder {
         color: #f3c0b5;
         font-family: 'Jost';
+    }
+    textarea:hover {
+        color: V.$white;
+        cursor: pointer;
+        border-bottom: 3px solid V.$white;
     }
 
 
