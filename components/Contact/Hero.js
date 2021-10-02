@@ -9,13 +9,13 @@ export default function About() {
                <h2>Contact Us</h2>
                 <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p> 
             </div>
-            <div className={styles.form}>
+            <form className={styles.form}>
                 <input placeholder="Name" id="name" className="name"/>
                 <input placeholder="Email" id="email" className="email"/>
                 <input placeholder="Phone" id="phone" className="phone"/>
                 <textarea placeholder="Your Message" className="textarea" />
                     <Link href="/contact"><a>SUBMIT</a></Link>
-            </div>
+            </form>
             
             
         </div>
