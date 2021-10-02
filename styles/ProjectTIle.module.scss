@@ -40,6 +40,15 @@
     }
 }
 
+.bottomContainer:hover {
+    cursor: pointer;
+    background-color: V.$peach;
+    color: white;
+    h1 {
+        color: V.$white;
+    }
+}
+
 .flexContainer {
     display: flex;
     flex-flow: row wrap;
