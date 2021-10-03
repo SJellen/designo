@@ -14,9 +14,9 @@ export default function About() {
             </div>
             <form className={styles.form}>
                 <input placeholder="Name" onChange={handleChange} value={formInfo.name} type="text" id="name" name="name" className="name"/>
-                <input placeholder="Email" id="email" className="email"/>
-                <input placeholder="Phone" id="phone" className="phone"/>
-                <textarea placeholder="Your Message" className="textarea" />
+                <input placeholder="Email" onChange={handleChange} value={formInfo.email} type="text" id="email" name="email" className="email"/>
+                <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="text" id="phone" className="phone"/>
+                <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" />
                     <Link href="/contact"><a>SUBMIT</a></Link>
             </form>
             
