@@ -111,4 +111,31 @@
         flex-direction: column;
         height: 711px;
     }
+    .textContainer {
+        width: 80%;
+    }
+    .form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        height: 764px;
+        width: 100%;
+        border-radius: 0;
+        margin: 0 auto;
+    }
+    .textContainer {
+        width: 80%;
+        text-align: center;
+        h2 {
+            font-size: 2rem;
+        }
+    }
+    .form {
+        width: 80%;
+        align-items: center;
+    }
 }
