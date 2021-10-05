@@ -6,8 +6,6 @@ export default function About() {
 
     const {handleChange, formInfo} = useFormLogic()
 
-    console.log(formInfo)
-
     return (
         <div className={styles.container}>
             <div className={styles.textContainer}>
@@ -20,9 +18,7 @@ export default function About() {
                 <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="text" id="phone" className="phone" />
                 <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" />
                     <Link href="/contact"><a>SUBMIT</a></Link>
-            </form>
-            
-            
+            </form>     
         </div>
     )
 }
