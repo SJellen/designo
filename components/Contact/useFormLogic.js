@@ -12,6 +12,7 @@ export default function useFormLogic() {
     const [formInfo, setFormInfo] = useState(initialForm)
 
     function handleChange(e) {
+        console.log(e)
         const value = e.target.value
         setFormInfo({
             ...formInfo,
@@ -19,9 +20,9 @@ export default function useFormLogic() {
         })
     }
 
-    useEffect(() => {
+    
        console.log(formInfo) 
-    }, [formInfo])
+    
 
     
 
