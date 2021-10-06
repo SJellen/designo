@@ -1,6 +1,7 @@
 import styles from '../../styles/Contact/Hero.module.scss'
 import Link from 'next/link'
 import useFormLogic from './useFormLogic'
+import Image from 'next/image'
 
 export default function About() {
 
@@ -14,13 +15,22 @@ export default function About() {
             </div>
             <form className={styles.form} id="form" >
                 <input placeholder="Name" onChange={handleChange} value={formInfo.name} type="text" id="name" name="name" className="name" />
-                    <span className={styles.error}>Can't be empty</span>
+                    <span className={styles.error}><p>Can't be empty</p> 
+                        <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /></div> 
+                    </span>
                 <input placeholder="Email" onChange={handleChange} value={formInfo.email} type="text" id="email" name="email" className="email" />
-                    <span className={styles.error}>Can't be empty</span>
+                    <span className={styles.error}><p>Can't be empty</p> 
+                        <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
+                    </span>
                 <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="text" id="phone" className="phone" />
-                    <span className={styles.error}>Can't be empty</span>
+                    <span className={styles.error}><p>Can't be empty</p> 
+                        <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
+                    </span>
+                    
                 <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" />
-                    <span className={styles.textareaError}>Can't be empty</span>
+                    <span className={styles.textareaError}><p>Can't be empty</p> 
+                        <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
+                    </span>
                     <Link href="/contact"><a>SUBMIT</a></Link>
             </form>     
         </div>
