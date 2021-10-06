@@ -12,20 +12,14 @@ export default function useFormLogic() {
     const [formInfo, setFormInfo] = useState(initialForm)
 
     function handleChange(e) {
-        console.log(e)
-        const value = e.target.value
         setFormInfo({
             ...formInfo,
-            [e.target.name]: value
+            [e.target.name]: e.target.value
         })
     }
 
     
        console.log(formInfo) 
-    
-
-    
-
 
     return {handleChange, formInfo}
 }
