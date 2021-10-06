@@ -47,6 +47,7 @@
         border-bottom: 1px solid V.$white;
         padding: 20px 10px;
         outline: none;
+        margin: .5rem 0;
     }
     input::placeholder {
         color: #f3c0b5;
@@ -55,6 +56,10 @@
         color: V.$white;
         cursor: pointer;
         border-bottom: 3px solid V.$white;
+    }
+    .error {
+        font-size: .75rem;
+        margin-top: -2.5rem;
     }
     textarea {
         width: 100%;
@@ -65,6 +70,7 @@
         padding: 5px 10px;
         outline: none;
         resize: none;
+        margin-top: 2rem;
     }
     textarea::placeholder {
         color: #f3c0b5;
@@ -75,11 +81,15 @@
         cursor: pointer;
         border-bottom: 3px solid V.$white;
     }
+    .textareaError {
+        font-size: .75rem;
+        margin-top: -2rem;
+    }
 
 
 
     a {
-        margin: 1rem 0;
+        margin: 2rem 0;
         display: flex;
         justify-content: center;
         background-color: V.$white;

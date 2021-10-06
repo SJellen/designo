@@ -14,9 +14,13 @@ export default function About() {
             </div>
             <form className={styles.form} id="form" >
                 <input placeholder="Name" onChange={handleChange} value={formInfo.name} type="text" id="name" name="name" className="name" />
+                    <span className={styles.error}>Can't be empty</span>
                 <input placeholder="Email" onChange={handleChange} value={formInfo.email} type="text" id="email" name="email" className="email" />
+                    <span className={styles.error}>Can't be empty</span>
                 <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="text" id="phone" className="phone" />
+                    <span className={styles.error}>Can't be empty</span>
                 <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" />
+                    <span className={styles.textareaError}>Can't be empty</span>
                     <Link href="/contact"><a>SUBMIT</a></Link>
             </form>     
         </div>
