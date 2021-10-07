@@ -24,7 +24,11 @@ export default function useFormLogic() {
 
     function handleSubmit(e) {
         e.preventDefault()
-        errorStyles("error")
+        errorStyles("nameError")
+        errorStyles("emailError")
+        errorStyles("phoneError")
+        errorStyles("textAreaError")
+        
     }
 
     

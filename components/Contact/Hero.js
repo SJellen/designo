@@ -15,15 +15,15 @@ export default function About() {
             </div>
             <form className={styles.form} id="form" onSubmit={handleSubmit}>
                 <input placeholder="Name" onChange={handleChange} value={formInfo.name} type="text" id="name" name="name" className="name" />
-                    <span className={styles.error} id="error"><p>Can't be empty</p> 
+                    <span className={styles.error} id="nameError"><p>Can't be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /></div> 
                     </span>
                 <input placeholder="Email" onChange={handleChange} value={formInfo.email} type="text" id="email" name="email" className="email" />
-                    <span className={styles.error} id="error"><p>Can't be empty</p> 
+                    <span className={styles.error} id="emailError"><p>Can't be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                 <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="text" id="phone" className="phone" />
-                    <span className={styles.error} id="error"><p>Can't be empty</p> 
+                    <span className={styles.error} id="phoneError"><p>Can't be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                     
