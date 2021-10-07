@@ -65,7 +65,10 @@
         align-items: center;
         justify-content: space-evenly;
         width: 125px;
-        display: none;
+        opacity: 0;
+    }
+    #error {
+        opacity: 1; 
     }
     textarea {
         width: 100%;
@@ -97,6 +100,10 @@
         justify-content: space-evenly;
         width: 125px;
         display: none;
+    }
+
+    #textAreaError {
+        opacity: 1;
     }
 
 

@@ -11,6 +11,10 @@ export default function useFormLogic() {
 
     const [formInfo, setFormInfo] = useState(initialForm)
 
+    function errorStyles(element) {
+        document.querySelector(`#${element}`).style.opacity = "1";
+    }
+
     function handleChange(e) {
         setFormInfo({
             ...formInfo,
@@ -18,8 +22,13 @@ export default function useFormLogic() {
         })
     }
 
+    function handleSubmit(e) {
+        e.preventDefault()
+        errorStyles("error")
+    }
+
     
        console.log(formInfo) 
 
-    return {handleChange, formInfo}
+    return {handleChange, formInfo, handleSubmit}
 }
