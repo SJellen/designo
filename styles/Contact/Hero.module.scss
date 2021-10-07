@@ -108,7 +108,7 @@
 
 
 
-    a {
+    button {
         margin: 2rem 0;
         display: flex;
         justify-content: center;
@@ -118,8 +118,10 @@
         height: 56px;
         padding: 1rem 3.25rem;
         border-radius: 10px;
+        border: none;
+        line-height: 2;
     }
-    a:hover {
+    button:hover {
         background-color: #fcad9b;
         color: V.$white;
     }
