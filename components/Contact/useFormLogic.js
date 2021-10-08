@@ -48,15 +48,13 @@ export default function useFormLogic() {
         } else {
             defaultStyles("phoneError")
         }
-        
-        
-        
-        errorStyles("textAreaError")
-        
+        if (formInfo.message.length === 0) {
+            errorStyles("textAreaError")
+        } else {
+            defaultStyles("textAreaError")
+        }
+        setFormInfo(initialForm)   
     }
-
-    
-       console.log(formInfo) 
 
     return {handleChange, formInfo, handleSubmit}
 }
