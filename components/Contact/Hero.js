@@ -22,12 +22,12 @@ export default function About() {
                     <span className={styles.error} id="emailError"><p>Email not valid</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
-                <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="text" id="phone" className="phone" />
+                <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="number" id="phone" className="phone" name="phone" />
                     <span className={styles.error} id="phoneError"><p>Can't be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                     
-                <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" />
+                <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" name="message" />
                     <span className={styles.textareaError} id="textAreaError"><p>Can't be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>

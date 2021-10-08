@@ -43,9 +43,14 @@ export default function useFormLogic() {
         } else {
             defaultStyles("emailError")
         }
+        if (formInfo.phone.length === 0) {
+            errorStyles("phoneError")
+        } else {
+            defaultStyles("phoneError")
+        }
         
         
-        errorStyles("phoneError")
+        
         errorStyles("textAreaError")
         
     }
