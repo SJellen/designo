@@ -19,7 +19,7 @@ export default function About() {
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /></div> 
                     </span>
                 <input placeholder="Email" onChange={handleChange} value={formInfo.email} type="text" id="email" name="email" className="email" />
-                    <span className={styles.error} id="emailError"><p>Can't be empty</p> 
+                    <span className={styles.error} id="emailError"><p>Email not valid</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                 <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="text" id="phone" className="phone" />

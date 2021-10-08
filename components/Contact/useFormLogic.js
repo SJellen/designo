@@ -11,8 +11,17 @@ export default function useFormLogic() {
 
     const [formInfo, setFormInfo] = useState(initialForm)
 
+    function validateEmail(email) {
+        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+}
+
     function errorStyles(element) {
         document.querySelector(`#${element}`).style.opacity = "1";
+    }
+
+    function defaultStyles(element) {
+        document.querySelector(`#${element}`).style.opacity = "";
     }
 
     function handleChange(e) {
@@ -24,8 +33,18 @@ export default function useFormLogic() {
 
     function handleSubmit(e) {
         e.preventDefault()
-        errorStyles("nameError")
-        errorStyles("emailError")
+        if (formInfo.name.length === 0) {
+            errorStyles("nameError")
+        } else {
+            defaultStyles("nameError")
+        }
+        if (validateEmail(formInfo.email) === false) {
+            errorStyles("emailError")
+        } else {
+            defaultStyles("emailError")
+        }
+        
+        
         errorStyles("phoneError")
         errorStyles("textAreaError")
         
