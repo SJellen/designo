@@ -13,9 +13,11 @@ export default function Header() {
 
     return (
         <header className={styles.container}>
-        <div className={styles.headerLogo}>
-            <Image src="/assets/shared/desktop/logo-dark.png" alt="open menu icon" width="404" height="54" />
-        </div>
+            <div className={styles.headerLogo}>
+                <Link href="/" >
+                    <Image src="/assets/shared/desktop/logo-dark.png" alt="open menu icon" width="404" height="54" />
+                </Link>
+            </div>
         <nav className={styles.nav}>
             <Link href="/about" ><a >OUR COMPANY</a></Link>
             <Link href="/locations" ><a >LOCATIONS</a></Link>

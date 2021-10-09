@@ -8,9 +8,11 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.container}>
                <div className={styles.topContainer}>
-                <div className={styles.footerLogo}>
-                    <Image src="/assets/shared/desktop/logo-light.png" alt="open menu icon" width="404" height="54" />
-                </div>
+                    <div className={styles.footerLogo}>
+                        <Link href="/" >
+                            <Image src="/assets/shared/desktop/logo-light.png" alt="open menu icon" width="404" height="54" />
+                        </Link>
+                    </div>
                 <nav className={styles.nav}>
                     <Link href="/about" ><a >OUR COMPANY</a></Link>
                     <Link href="/locations" ><a >LOCATIONS</a></Link>
