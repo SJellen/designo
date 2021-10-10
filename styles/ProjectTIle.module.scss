@@ -4,7 +4,8 @@
 .container {
     width: 350px;
     height: 478px;
-    margin: 2rem auto;
+    margin: 1rem auto;
+    padding: 0 .5rem;
 }
 
 .imgContainer {
@@ -52,7 +53,10 @@
 .flexContainer {
     display: flex;
     flex-flow: row wrap;
-    // justify-content: flex-start;
-    // justify-content: space-evenly;
-    align-content: flex-start;
+    border: 1px solid gold;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    
 }
