@@ -65,26 +65,27 @@
         padding: 0;
         flex-direction: row;
         border: 1px solid red;
-        margin: 2rem auto;
+        margin: .5rem auto;
     }
     .imgContainer {
-       background-color: red;
        width: 50%;
        height: auto;
-    //    width: 338px;
-    //    height: auto;
        img {
-        //    width: 338px;
-           
            border-top-left-radius: 0px;
            border-top-right-radius: 0px;
+           border-bottom-left-radius: 10px;
+           border-top-left-radius: 10px;
+           
        }
     }
 
     .bottomContainer {
         margin: 0 auto;
         width: 50%;
-        height: auto;
-        
+        height: 97.5%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
     }
 }
