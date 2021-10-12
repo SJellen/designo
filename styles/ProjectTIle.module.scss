@@ -89,3 +89,22 @@
         border-top-left-radius: 0px;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .container {
+        border: 1px solid green;
+        flex-direction: column;
+    }
+    .imgContainer {
+        width: 100%;
+        img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+    .bottomContainer {
+        width: 100%;
+    }
+}
