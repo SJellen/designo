@@ -4,7 +4,6 @@ export default function Locations() {
 
     return (
         <div className={styles.container}>
-            locations
         </div>
     )
 }
