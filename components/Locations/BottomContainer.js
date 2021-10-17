@@ -7,7 +7,8 @@ export default function BottomContainer() {
     return (
         <div className={styles.container}>
              <div className={styles.info}>
-                <h1>United Kingdom</h1>
+                <div className={styles.textContainer}>
+                    <h1>United Kingdom</h1>
                     <ul>
                         <li>Designo UK Office</li>
                         <li>13  Colorado Way</li>
@@ -18,6 +19,8 @@ export default function BottomContainer() {
                         <li>P : 078 3115 1400</li>
                         <li>M : contact@designo.uk</li>
                     </ul>
+                </div>
+                
              </div>
             <div className={styles.map}>
             </div>

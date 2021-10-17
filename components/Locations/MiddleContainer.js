@@ -9,7 +9,8 @@ export default function MiddleContainer() {
             <div className={styles.map}>
             </div>
             <div className={styles.info}>
-                <h1>Australia</h1>
+                <div className={styles.textContainer}>
+                   <h1>Australia</h1>
                     <ul>
                         <li>Designo AU Office</li>
                         <li>19 Balonne Street</li>
@@ -19,7 +20,10 @@ export default function MiddleContainer() {
                         <li>Contact </li>
                         <li>P : (02) 6720 9092</li>
                         <li>M : contact@designo.au</li>
-                    </ul>
+                    </ul> 
+                </div>
+
+                
             </div>
         </div>
     )

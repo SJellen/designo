@@ -6,7 +6,7 @@ export default function TopContainer() {
     return (
         <div className={styles.container}>
             <div className={styles.info}>
-                <div>
+                <div className={styles.textContainer}>
                     <h1>Canada</h1>
                     <ul>
                         <li>Designo Central Office</li>
