@@ -8,7 +8,8 @@ export default function TopContainer() {
             <div className={styles.info}>
                 <div className={styles.textContainer}>
                     <h1>Canada</h1>
-                    <ul>
+                    <div className={styles.listContainer}>
+                      <ul>
                         <li>Designo Central Office</li>
                         <li>3886 Wellington Street</li>
                         <li>Toronto, Ontario M9C 3J5</li>
@@ -17,7 +18,9 @@ export default function TopContainer() {
                         <li>Contact </li>
                         <li>P : +1 253-863-8967</li>
                         <li>M : contact@designo.co</li>
-                    </ul>
+                    </ul>  
+                    </div>
+                    
                 </div>
             </div>
             <div className={styles.map}>
