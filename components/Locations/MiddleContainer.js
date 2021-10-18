@@ -11,6 +11,7 @@ export default function MiddleContainer() {
             <div className={styles.info}>
                 <div className={styles.textContainer}>
                    <h1>Australia</h1>
+                   <div className={styles.listContainer}>
                     <ul>
                         <li>Designo AU Office</li>
                         <li>19 Balonne Street</li>
@@ -21,6 +22,8 @@ export default function MiddleContainer() {
                         <li>P : (02) 6720 9092</li>
                         <li>M : contact@designo.au</li>
                     </ul> 
+                   </div>
+                    
                 </div>
 
                 

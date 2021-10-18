@@ -22,14 +22,25 @@
     align-items: center;
     .textContainer {
         border: 1px solid red;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         h1 {
             color: V.$peach;
             font-weight: 500;
             font-size: 2.5rem;
         }
         ul {
+            border: 1px solid gold;
+            padding: 0;
             list-style: none;
             display: inline-block
+        }
+        .listContainer {
+            border: 1px solid green;
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
