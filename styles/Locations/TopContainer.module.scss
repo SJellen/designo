@@ -39,6 +39,9 @@
             list-style: none;
             display: inline-block
         }
+        li:first-child {
+            font-weight: 600;
+        }
         .listContainer {
             border: 1px solid green;
             width: 85%;
