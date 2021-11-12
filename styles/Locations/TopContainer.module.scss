@@ -59,3 +59,16 @@
     border-radius: 15px;
 }
 
+@media only screen and (max-width: 1200px) {
+
+   .info {
+       .textContainer {
+           width: 85%;
+           .listContainer{
+               width: 100%;
+           }
+       }
+   }
+    
+}
+
