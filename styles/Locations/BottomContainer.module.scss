@@ -71,3 +71,30 @@
     }
      
  }
+
+
+@media only screen and (max-width: 1050px) {
+    .container {
+        height: 685px;
+        flex-direction: column-reverse;
+    }
+    .info {
+        width: 100%;
+        margin: 1rem auto 0 auto;
+        .textContainer {
+            width: 75%;
+            .listContainer {
+                width: 75%;
+            }
+        }
+    }
+
+    .map {
+        width: 100%;
+        margin: 0 auto 1rem auto;
+        background-image: url('../../public/assets/locations/tablet/image-map-uk.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+ 
