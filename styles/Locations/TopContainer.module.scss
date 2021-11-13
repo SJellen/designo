@@ -109,7 +109,6 @@
 @media only screen and (max-width: 500px) {
         .container {
             margin: 0 auto;
-            border: 1px solid red;
             height: 714px;
         }
         .map {
@@ -123,7 +122,9 @@
             border-radius: 0;
             text-align: center;
             .textContainer {
-                border: 1px solid goldenrod;
+                h1 {
+                    font-size: 2rem;
+                }
                 .listContainer {
                     flex-direction: column;
                 }

@@ -4,7 +4,6 @@
     width: 100%;
     height: 326px;
     margin: 2rem auto;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +21,6 @@
     justify-content: center;
     align-items: center;
     .textContainer {
-        border: 1px solid red;
         width: 75%;
         display: flex;
         flex-direction: column;
@@ -34,7 +32,6 @@
             font-size: 2.5rem;
         }
         ul {
-            border: 1px solid gold;
             padding: 0;
             list-style: none;
             display: inline-block
@@ -43,7 +40,6 @@
             font-weight: 600;
         }
         .listContainer {
-            border: 1px solid green;
             display: flex;
             justify-content: space-between;
             width: 85%;
@@ -107,6 +103,32 @@
             width: 85%;
             .listContainer {
                 width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        margin: 0 auto;
+        height: 714px;
+    }
+    .map {
+        margin: 0 auto;
+        border-radius: 0px;
+        background-size: auto;
+    }
+    .info {
+        min-height: 395px;
+        margin: 0 auto;
+        border-radius: 0;
+        text-align: center;
+        .textContainer {
+            h1 {
+                font-size: 2rem;
+            }
+            .listContainer {
+                flex-direction: column;
             }
         }
     }
