@@ -99,5 +99,16 @@
     }
 }
 
+@media only screen and (max-width: 750px) {
+    .info {
+        .textContainer {
+            width: 85%;
+            .listContainer {
+                width: 100%;
+            }
+        }
+    }
+}
+
 
 
