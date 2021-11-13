@@ -4,7 +4,6 @@
     width: 78%;
     height: auto;
     margin: 0 auto 9rem auto;
-    border: 1px solid red;
 }
 
 @media only screen and (max-width: 900px) {
@@ -13,3 +12,10 @@
         width: 90%;
     }
 } 
+
+@media only screen and (max-width: 500px) {
+    .container {
+        margin: 0 auto 9rem auto;
+        width: 100%;
+    }
+}
