@@ -6,25 +6,25 @@
         "image": "/assets/app-design/desktop/image-airfilter.jpg"
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "EYECAM",
         "description": "Product that lets you edit your favorite photos and videos at any time",
         "image": "/assets/app-design/desktop/image-eyecam.jpg"
     },
     {
-        "id": 1,
+        "id": 3,
         "name": "FACEIT",
         "description": "Get to meet your favorite internet superstar with the faceit app",
         "image": "/assets/app-design/desktop/image-faceit.jpg"
     },
     {
-        "id": 1,
+        "id": 4,
         "name": "TODO",
         "description": "A todo app that features cloud sync with light and dark mode",
         "image": "/assets/app-design/desktop/image-todo.jpg"
     },
     {
-        "id": 1,
+        "id": 5,
         "name": "LOOPSTUDIOS",
         "description": "A VR experience app made for Loopstudios",
         "image": "/assets/app-design/desktop/image-loopstudios.jpg"
