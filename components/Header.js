@@ -8,7 +8,7 @@ export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false)
 
     function handleClick() {
-        setIsNavOpen((prevState) => !prevState)
+        setIsNavOpen(prevState => !prevState)
     }
 
     return (
@@ -24,9 +24,9 @@ export default function Header() {
             <Link href="/contact" ><a >CONTACT</a></Link>
         </nav>
         <nav className={styles.mobileNav} style={{display: isNavOpen ? "" : "none"}}>
-            <Link href="/about" ><a >OUR COMPANY</a></Link>
-            <Link href="/locations" ><a >LOCATIONS</a></Link>
-            <Link href="/contact" ><a >CONTACT</a></Link>
+            <Link href="/about" ><a onClick={() => setIsNavOpen(false)}>OUR COMPANY</a></Link>
+            <Link href="/locations" ><a onClick={() => setIsNavOpen(false)}>LOCATIONS</a></Link>
+            <Link href="/contact" ><a onClick={() => setIsNavOpen(false)}>CONTACT</a></Link>
         </nav>
         <div className={styles.mobileContainer}>
             <div style={{display: isNavOpen ? "none" : ""}} onClick={handleClick}>
