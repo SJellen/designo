@@ -10,13 +10,13 @@ export default function WebDesignTileHome() {
        <div className={styles.container}>
          <div className={styles.imgContainer}>
             <div className={styles.imgContainerDesktop}>
-                    <Image src="/assets/home/desktop/image-web-design-large.jpg" alt="speaker" width="541" height="640"  className={styles.img}/>
+                    <Image src="/assets/home/desktop/image-web-design-large.jpg" alt="laptop" width="541" height="640"  className={styles.img}/>
                 </div>
                 <div className={styles.imgContainerTablet}>
-                    <Image src="/assets/home/tablet/image-web-design-large.jpg" alt="speaker" width="689" height="200"  className={styles.img}/>
+                    <Image src="/assets/home/tablet/image-web-design.jpg" alt="laptop" width="689" height="200"  className={styles.img}/>
                 </div>
                 <div className={styles.imgContainerMobile}>
-                    <Image src="/assets/home/mobile/image-web-design-large.jpg" alt="speaker" width="327" height="250"  className={styles.img}/>
+                    <Image src="/assets/home/mobile/image-web-design.jpg" alt="laptop" width="327" height="250"  className={styles.img}/>
                 </div> 
             </div>
          <div className={styles.textContainer}>

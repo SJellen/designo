@@ -37,3 +37,19 @@
     border: 1px solid red;
 }
 
+@media only screen and (max-width: 900px) {
+    .container {
+        background-color: purple;
+    }
+    .imgContainer {
+        .imgContainerDesktop {
+            display: none;
+        }
+        .imgContainerTablet {
+            display: flex;
+        }
+    }
+
+    
+}
+
