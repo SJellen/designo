@@ -28,7 +28,7 @@ export default function About() {
                     </span>
                     
                 <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" name="message" />
-                    <span className={styles.textareaError} id="textAreaError"><p>Can&#39;t be empty</p> 
+                    <span className={styles.textareaError} id="textAreaError"><p>Cannot be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                     <button form="form" type="submit">SUBMIT</button>
