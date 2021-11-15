@@ -15,7 +15,7 @@ export default function About() {
             </div>
             <form className={styles.form} id="form" onSubmit={handleSubmit}>
                 <input placeholder="Name" onChange={handleChange} value={formInfo.name} type="text" id="name" name="name" className="name" />
-                    <span className={styles.error} id="nameError"><p>Can't be empty</p> 
+                    <span className={styles.error} id="nameError"><p>Can&#39;t be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /></div> 
                     </span>
                 <input placeholder="Email" onChange={handleChange} value={formInfo.email} type="text" id="email" name="email" className="email" />
@@ -23,12 +23,12 @@ export default function About() {
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                 <input placeholder="Phone" onChange={handleChange} value={formInfo.phone} type="number" id="phone" className="phone" name="phone" />
-                    <span className={styles.error} id="phoneError"><p>Can't be empty</p> 
+                    <span className={styles.error} id="phoneError"><p>Can&#39;t be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                     
                 <textarea placeholder="Your Message" onChange={handleChange} value={formInfo.message} type="text" id="message" className="textarea" name="message" />
-                    <span className={styles.textareaError} id="textAreaError"><p>Cannot be empty</p> 
+                    <span className={styles.textareaError} id="textAreaError"><p>Can&#39;t be empty</p> 
                         <div><Image src="/assets/contact/desktop/icon-error.svg" alt="error icon" width="20" height="20"  /> </div>
                     </span>
                     <button form="form" type="submit">SUBMIT</button>
