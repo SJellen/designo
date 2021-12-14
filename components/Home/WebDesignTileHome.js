@@ -1,4 +1,4 @@
-import styles from '../../styles/ImageNavTile.module.scss'
+import styles from '../../styles/Home/WebDesignTileHome.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
 
