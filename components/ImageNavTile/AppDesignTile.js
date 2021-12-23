@@ -1,4 +1,4 @@
-import styles from '../../styles/ImageNavTile.module.scss'
+import styles from '../../styles/AppDesign/AppTileNav.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -8,7 +8,7 @@ export default function AppDesignTile() {
         // eslint-disable-next-line @next/next/link-passhref
         <Link href="/appdesign" >
           <div className={styles.container}>
-            <div className={styles.imgContainer}>
+            {/* <div className={styles.imgContainer}>
                 <div className={styles.imgContainerDesktop}>
                     <Image src="/assets/home/desktop/image-app-design.jpg" alt="speaker" width="541" height="308"  className={styles.img}/>
                 </div>
@@ -18,7 +18,7 @@ export default function AppDesignTile() {
                 <div className={styles.imgContainerMobile}>
                     <Image src="/assets/home/mobile/image-app-design.jpg" alt="speaker" width="327" height="250"  className={styles.img}/>
                 </div> 
-            </div>
+            </div> */}
             <div className={styles.textContainer}>
                 <h2>APP DESIGN</h2>
                 <span>

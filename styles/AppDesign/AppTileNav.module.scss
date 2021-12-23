@@ -1,0 +1,30 @@
+@use '../variables' as V;
+
+.container {
+    width: 98%;
+    height: 300px;
+    border-radius: 20px;
+    color: V.$white;
+    margin: 1rem auto;
+    border: 1px solid gold;
+    background-color: red;
+    background-image: url('../../public/assets/home/desktop/image-app-design.jpg');
+    background-size: cover;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+
+.textContainer {
+    z-index: 2;
+    position: relative;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        background-color: purple;
+    }
+ 
+}
