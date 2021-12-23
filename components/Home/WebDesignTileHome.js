@@ -8,7 +8,7 @@ export default function WebDesignTileHome() {
        // eslint-disable-next-line @next/next/link-passhref
        <Link href="/webdesign" >
        <div className={styles.container}>
-         <div className={styles.imgContainer}>
+         {/* <div className={styles.imgContainer}>
             <div className={styles.imgContainerDesktop}>
                     <Image src="/assets/home/desktop/image-web-design-large.jpg" alt="laptop" width="541" height="640"  className={styles.img}/>
                 </div>
@@ -18,7 +18,7 @@ export default function WebDesignTileHome() {
                 <div className={styles.imgContainerMobile}>
                     <Image src="/assets/home/mobile/image-web-design.jpg" alt="laptop" width="327" height="250"  className={styles.img}/>
                 </div> 
-            </div>
+            </div> */}
          <div className={styles.textContainer}>
              <h2>WEB DESIGN</h2>
              <span>
