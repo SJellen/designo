@@ -6,10 +6,9 @@
     border-radius: 20px;
     color: V.$white;
     margin: 1rem auto;
-    border: 1px solid gold;
-    background-color: red;
     background-image: url('../../public/assets/home/desktop/image-web-design-small.jpg');
     background-size: cover;
+    background-color: gray;
 }
 
 .container:hover {
@@ -32,4 +31,15 @@
         height: 200px;
     }
  
+}
+
+
+@media only screen and (max-width: 500px) {
+    .container {
+        background-color: gray;
+        background-image: url('../../public/assets/home/mobile/image-web-design.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+    }
 }
