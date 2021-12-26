@@ -18,6 +18,4 @@ export default function GraphicDesignTile() {
        </div>  
        </Link>
     )
-
-
 }

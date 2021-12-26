@@ -18,6 +18,4 @@ export default function WebDesignTileHome() {
      </div>  
      </Link>
     )
-
-
 }
