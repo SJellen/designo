@@ -9,18 +9,23 @@
     background-image: url('../../public/assets/home/desktop/image-web-design-small.jpg');
     background-size: cover;
     background-color: gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .container:hover {
     cursor: pointer;
 }
 
-
 .textContainer {
-    z-index: 2;
-    position: relative;
+    border: 1px solid red;
+        h4 {
+            border: 1px solid green;
+            display: inline-block;
+        }
 }
-
 
 @media only screen and (max-width: 900px) {
     .container {
@@ -30,9 +35,7 @@
         width: 100%;
         height: 200px;
     }
- 
 }
-
 
 @media only screen and (max-width: 500px) {
     .container {

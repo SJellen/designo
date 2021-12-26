@@ -9,6 +9,10 @@
     display: flex;
     flex-direction: column;
     background-image: url('../../public/assets/home/desktop/image-web-design-large.jpg');
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .container:hover {
@@ -16,8 +20,11 @@
 }
 
 .textContainer {
-    z-index: 2;
-    position: relative;
+    border: 1px solid red;
+        h4 {
+            border: 1px solid green;
+            display: inline-block;
+        }
 }
 
 @media only screen and (max-width: 900px) {
@@ -29,7 +36,6 @@
         height: 200px;
         margin: 3rem auto;
     }
- 
 }
 
 @media only screen and (max-width: 500px) {

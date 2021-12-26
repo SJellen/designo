@@ -10,10 +10,7 @@ export default function GraphicDesignTile() {
          <div className={styles.container}>
            <div className={styles.textContainer}>
                <h2>GRAPHIC DESIGN</h2>
-               <span>
                    <h4>VIEW PROJECTS</h4><Image src="/assets/shared/desktop/icon-right-arrow.svg" alt="right arrow" width="8" height="8"  className={styles.svg}/>
-               </span>
-               
            </div>
        </div>  
        </Link>

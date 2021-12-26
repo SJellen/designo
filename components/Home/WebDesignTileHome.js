@@ -9,11 +9,8 @@ export default function WebDesignTileHome() {
        <Link href="/webdesign" >
        <div className={styles.container}>
          <div className={styles.textContainer}>
-             <h2>WEB DESIGN</h2>
-             <span>
-                 <h4>VIEW PROJECTS</h4><Image src="/assets/shared/desktop/icon-right-arrow.svg" alt="right arrow" width="8" height="8"  className={styles.svg}/>
-             </span>
-             
+            <h2>WEB DESIGN</h2>
+            <h4>VIEW PROJECTS</h4><Image src="/assets/shared/desktop/icon-right-arrow.svg" alt="right arrow" width="8" height="8"  className={styles.svg}/>
          </div>
      </div>  
      </Link>
