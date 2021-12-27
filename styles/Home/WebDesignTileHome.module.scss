@@ -17,7 +17,9 @@
 
 .container:hover {
     cursor: pointer;
-    background: linear-gradient(to top, rgba(231, 129, 107,.75), rgba(231, 129, 107, .85)), url(../../public/assets/home/desktop/image-web-design-large.jpg) no-repeat top center;
+    background: linear-gradient(to top, rgba(231, 129, 107,.75), rgba(231, 129, 107, .85)), url(../../public/assets/home/desktop/image-web-design-large.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .textContainer {
@@ -45,6 +47,13 @@
         height: 200px;
         margin: 3rem auto;
     }
+
+    .container:hover {
+        cursor: pointer;
+        background: linear-gradient(to top, rgba(231, 129, 107,.75), rgba(231, 129, 107, .85)), url(../../public/assets/home/tablet/image-web-design.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -54,6 +63,13 @@
         background-size: cover;
         width: 100%;
         height: 250px;
+    }
+
+    .container:hover {
+        cursor: pointer;
+        background: linear-gradient(to top, rgba(231, 129, 107,.75), rgba(231, 129, 107, .85)), url(../../public/assets/home/mobile/image-web-design.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
     }
     .textContainer {
         h2 {
