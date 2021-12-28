@@ -1,13 +1,12 @@
 @use '../variables' as V;
 
 .container {
-    width: 78%;
+    width: 90%;
     height: 326px;
     margin: 0 auto 2rem auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .info {

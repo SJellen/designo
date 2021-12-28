@@ -1,21 +1,22 @@
 @use '../variables' as V;
 
 .container {
-    width: 78%;
+    width: 100%;
     height: auto;
     margin: 0 auto 9rem auto;
+    padding-bottom: 10rem;
 }
 
 @media only screen and (max-width: 900px) {
     .container {
-        margin: 2.5rem auto 9rem auto;
+        margin: 2.5rem auto;
         width: 90%;
     }
 } 
 
 @media only screen and (max-width: 500px) {
     .container {
-        margin: 0 auto 9rem auto;
+        margin: 0 auto 0rem auto;
         width: 100%;
     }
 }
