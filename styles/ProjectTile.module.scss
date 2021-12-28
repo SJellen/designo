@@ -1,0 +1,112 @@
+@use 'variables' as V;  
+
+.container {
+    width: 350px;
+    height: 478px;
+    margin: 1rem auto;
+    padding: 0 .5rem;
+}
+
+.imgContainer {
+    img {
+       border-top-left-radius: 15px;
+       border-top-right-radius: 15px;
+    }
+}
+
+.bottomContainer {
+    background-color:#FDF3F0;
+    z-index: 2;
+    position: relative;
+    margin-top: -2rem;
+    height: 156px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+        margin-top: -.5rem;
+        color: V.$peach;
+        font-size: 1.25rem;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+    p {
+        width: 80%;
+        margin: 0 auto;
+        font-weight: 300;
+    }
+}
+
+.bottomContainer:hover {
+    cursor: pointer;
+    background-color: V.$peach;
+    color: white;
+    h1 {
+        color: V.$white;
+    }
+}
+
+.flexContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 0;
+        flex-direction: row;
+        margin: .5rem auto;
+    }
+    .imgContainer {
+       width: 50%;
+       height: auto;
+       img {
+           border-top-left-radius: 0px;
+           border-top-right-radius: 0px;
+           border-bottom-left-radius: 10px;
+           border-top-left-radius: 10px;
+       }
+    }
+
+    .bottomContainer {
+        margin: 0 auto;
+        width: 50%;
+        height: 97.5%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+    .imgContainer {
+        width: 100%;
+        img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+    .bottomContainer {
+        width: 100%;
+        height: 158px;
+        margin-top: -.45rem;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
