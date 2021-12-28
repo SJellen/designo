@@ -26,7 +26,6 @@
 }
 
 .textContainer {
-    border: 1px solid red;
     width: 540px;
     height: 350px;
     color: V.$white;
@@ -44,6 +43,7 @@
         width: 80%;
     }
     a {
+        z-index: 3;
         background-color: V.$white;
         color: V.$black;
         width: 152px;
