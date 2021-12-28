@@ -9,7 +9,7 @@ export default function Footer() {
             <div className={styles.container}>
                <div className={styles.topContainer}>
                     <div className={styles.footerLogo}>
-                        <Link href="/" >
+                        <Link href="/" passHref >
                             <Image src="/assets/shared/desktop/logo-light.png" alt="open menu icon" width="404" height="54" />
                         </Link>
                     </div>

@@ -14,7 +14,7 @@ export default function Header() {
     return (
         <header className={styles.container}>
             <div className={styles.headerLogo}>
-                <Link href="/" >
+                <Link href="/" passHref >
                     <Image src="/assets/shared/desktop/logo-dark.png" alt="open menu icon" width="404" height="54" />
                 </Link>
             </div>
