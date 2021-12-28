@@ -3,7 +3,7 @@ import Hero from '../components/AppDesign/Hero'
 import ProjectContainer from '../components/AppDesign/ProjectContainer'
 import ImageNav from '../components/AppDesign/ImageNav'
 
-export default function appDesign() {
+export default function AppDesign() {
 
     return (
         <div className={styles.container}>
