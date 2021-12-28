@@ -22,10 +22,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-     margin-left: 10%;
+    margin-left: 10%;
 }
 
 .textContainer {
+    border: 1px solid red;
     width: 540px;
     height: 350px;
     color: V.$white;
@@ -51,9 +52,9 @@
         border-radius: 10px;
     }
     a:hover {
+        cursor: pointer;
         background-color: #fcad9b;
         color: V.$white;
-        cursor: pointer;
     }
 }
 .rightContainer {
@@ -61,7 +62,6 @@
     height: 100%;
    .imgContainer {
        position: relative;
-       
        margin-top: 0%;
        right: 30%;
        width: 150%;
