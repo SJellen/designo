@@ -22,28 +22,24 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://raw.githubusercontent.com/SJellen/designo/main/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Code](https://github.com/SJellen/designo)
+- Live Site URL: [Live](https://designo-navy.vercel.app/)
 
-## My process
 
 ### Built with
-
+- Figma
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Scott Jellen](https://scottjellen.com)
+- Twitter - [@ScottJellen](https://www.twitter.com/ScottJellen)
